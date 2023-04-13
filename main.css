@@ -224,8 +224,8 @@ h1
   }
 
   @keyframes animacja{
-	from{transform: translateX(-60px);}
-	to{transform: translateX(60px);}
+	from{transform: translateX(-40px);}
+	to{transform: translateX(40px);}
   }
 
   .animacja{
