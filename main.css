@@ -223,6 +223,21 @@ h1
 		
   }
 
+  @keyframes animacja{
+	from{opacity: 0;}
+	to{
+		opacity: 1;
+	}
+  }
+
+  .animacja{
+	
+	animation-name:animacja;
+	animation-duration: 10s;
+	
+	
+  }
+	
   
   
  
