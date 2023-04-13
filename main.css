@@ -224,16 +224,14 @@ h1
   }
 
   @keyframes animacja{
-	from{opacity: 0;}
-	to{
-		opacity: 1;
-	}
+	from{transform: translateX(-90px);}
+	to{transform: translateX(90px);}
   }
 
   .animacja{
 	
-	animation-name:animacja;
-	animation-duration: 10s;
+animation: alternate 1.5s 2s both infinite ease-in-out animacja;
+
 	
 	
   }
